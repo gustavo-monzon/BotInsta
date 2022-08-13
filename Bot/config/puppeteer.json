@@ -1,0 +1,40 @@
+{
+  "base_url": "https://www.instagram.com",
+  "username": "",
+  "password": "",
+  "hashTags": [
+    "hashtag1",
+    "hashtag2",
+    "hashtag3",
+    "hashtag4",
+    "hashtag5"
+  ],
+  "settings": {
+    "run_every_x_hours": 3,
+    "like_ratio": 0.75,
+    "unfollow_after_days": 2,
+    "headless": false
+  },
+  "selectors": {
+    "home_to_login_button": ".izU2O a",
+    "username_field": "input[type=\"text\"]",
+    "password_field": "input[type=\"password\"]",
+    "login_button": "button[type=\"submit\"]",
+    "post_heart_grey_en": "._8-yf5[aria-label=\"Like\"]",
+    "post_heart_grey_es": "._8-yf5[aria-label=\"Me gusta\"]",
+    "post_username": "div.e1e1d > a.yWX7d._8A5w5",
+    "post_image_profile": "div.RR-M-.mrq0Z",
+    "username_button": ".e1e1d",
+    "post_follow_link": ".bY2yH > button",
+    "post_like_button": "span.fr66n > button",
+    "post_follow_button": "span.oW_lN._1OSdk > button",
+    "post_close_button": "button.ckWGn",
+    "user_unfollow_button": "span.vBF20 > button._5f5mN",
+    "user_unfollow_confirm_button": "div.mt3GC > button.aOOlW.-Cab_",
+    "not_now_button": ".yWX7d",
+    "hash_tags_base_class": ".EZdmt",
+    "followers_button": "a.-nal3:nth-child(1)",
+    "follow_followers_button": "div.RnEpo.Yx5HN > div.pbNvD.fPMEg.HYpXt > div._1XyCr > div.isgrP > ul.jSC57._6xe7A > div > li.wo9IH",
+    "modalLogin": "div.RnEpo._Yhr4"
+  }
+}
